@@ -11,8 +11,12 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 public class MsGatewayApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MsGatewayApplication.class, args);
-	}
-
+  /**
+   * Starts the reactive API gateway.
+   *
+   * @param args command line arguments
+   */
+  public static void main(String[] args) {
+    SpringApplication.run(MsGatewayApplication.class, args);
+  }
 }
